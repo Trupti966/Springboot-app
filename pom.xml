@@ -10,7 +10,6 @@
 	</parent>
 	<groupId>com.springboot.application</groupId>
 	<artifactId>springboot-app</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-app</name>
 	<description>Spring Boot Restful Web Services</description>
 	<url/>
@@ -27,7 +26,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -40,10 +39,11 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
-			<scope>runtime</scope>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version> <!-- Use the latest version available -->
 		</dependency>
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
